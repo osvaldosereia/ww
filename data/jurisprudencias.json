@@ -1,0 +1,28 @@
+{
+  "categorias": [
+    {
+      "nome": "Consumidor",
+      "decisoes": [
+        {
+          "titulo": "Atraso de voo e dano moral in re ipsa",
+          "tribunal": "STJ",
+          "processo": "REsp 123456/DF",
+          "ementa": "Dano moral configurado por atraso excessivo.",
+          "link": "https://www.stj.jus.br"
+        }
+      ]
+    },
+    {
+      "nome": "Trabalho",
+      "decisoes": [
+        {
+          "titulo": "Adicional de periculosidade para motociclistas",
+          "tribunal": "TST",
+          "processo": "RR 000000/00",
+          "ementa": "...",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "titulo": "Curso de Direito Constitucional",
+      "site": "Amazon",
+      "ano": "2024",
+      "link": "https://amazon.com"
+    },
+    {
+      "titulo": "Responsabilidade Civil",
+      "site": "Saraiva",
+      "link": "https://saraiva.com"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Projeto \u2014 Criador de Prompt",
+  "short_name": "Criador",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7E6",
+  "theme_color": "#587042",
+  "icons": [
+    {
+      "src": "icons/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

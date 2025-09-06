@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+<meta charset="UTF-8"><base href="/ee/"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="icon" href="icons/pwa-192.png"><link rel="apple-touch-icon" href="icons/apple-touch-180.png">
+<link rel="stylesheet" href="css/styles.css"><script defer src="js/pages.js"></script><title>Códigos</title></head>
+<body><div class="app"><aside class="sidebar" role="navigation" aria-label="Menu lateral">
+  <div class="brand"><img src="icons/logo.png" alt="logo"><div class="name">Projeto</div></div>
+  <nav class="nav"><a class="" href="index.html"><span class="icon">🏠</span><span>Início</span></a><a class="active" href="pages/codigos.html"><span class="icon">📚</span><span>Códigos</span></a><a class="" href="pages/sumulas.html"><span class="icon">📄</span><span>Súmulas</span></a><a class="" href="pages/jurisprudencias.html"><span class="icon">⚖️</span><span>Jurisprudências</span></a><a class="" href="pages/noticias.html"><span class="icon">📰</span><span>Notícias</span></a><a class="" href="pages/livros.html"><span class="icon">📘</span><span>Livros</span></a><a class="" href="pages/videos.html"><span class="icon">🎬</span><span>Vídeos</span></a><a class="" href="pages/ajuda.html"><span class="icon">❓</span><span>Ajuda</span></a><a class="" href="pages/sobre.html"><span class="icon">ℹ️</span><span>Sobre</span></a></nav>
+</aside><main class="main">
+<button id="menu-btn" class="menu-btn" aria-label="Abrir menu">☰ Menu</button>
+<div class="kicker">Códigos</div>
+
+<h1>Catálogo de Códigos</h1><p class="helper">Escolha a categoria e selecione um código para visualizar.</p>
+<div class="card"><div class="buttons" id="code-cats"></div><div class="list" id="code-list"></div></div>
+<div class="card" id="code-detail" hidden style="margin-top:16px">
+  <div class="section-title" id="code-title">Título do Código</div>
+  <pre id="code-text" style="white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#fff;padding:12px;border:1px solid var(--border);border-radius:10px;max-height:50vh;overflow:auto"></pre>
+  <div class="buttons" style="margin-top:10px"><button class="button secondary" id="code-copy">Copiar</button><button class="button ghost" id="code-close">Fechar</button></div>
+</div>
+
+<footer class="small">© 2025 Projeto — PWA</footer></main></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div><div id="overlay" class="overlay" hidden></div></body></html>

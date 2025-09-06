@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+<meta charset="UTF-8"><base href="/ee/"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#587042"><link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/pwa-192.png"><link rel="apple-touch-icon" href="icons/apple-touch-180.png">
+<title>Criador de Prompt</title><link rel="stylesheet" href="css/styles.css"><script defer src="js/app.js"></script></head>
+<body><div class="app"><aside class="sidebar" role="navigation" aria-label="Menu lateral">
+  <div class="brand"><img src="icons/logo.png" alt="logo"><div class="name">Projeto</div></div>
+  <nav class="nav"><a class="active" href="index.html"><span class="icon">🏠</span><span>Início</span></a><a class="" href="pages/codigos.html"><span class="icon">📚</span><span>Códigos</span></a><a class="" href="pages/sumulas.html"><span class="icon">📄</span><span>Súmulas</span></a><a class="" href="pages/jurisprudencias.html"><span class="icon">⚖️</span><span>Jurisprudências</span></a><a class="" href="pages/noticias.html"><span class="icon">📰</span><span>Notícias</span></a><a class="" href="pages/livros.html"><span class="icon">📘</span><span>Livros</span></a><a class="" href="pages/videos.html"><span class="icon">🎬</span><span>Vídeos</span></a><a class="" href="pages/ajuda.html"><span class="icon">❓</span><span>Ajuda</span></a><a class="" href="pages/sobre.html"><span class="icon">ℹ️</span><span>Sobre</span></a></nav>
+</aside><main class="main">
+<button id="menu-btn" class="menu-btn" aria-label="Abrir menu">☰ Menu</button>
+<div class="kicker">Início</div><h1>Criador de Prompt</h1>
+<div class="card"><label class="small" for="tema">Digite o tema (máx. 80 caracteres)</label>
+<input id="tema" class="input" maxlength="80" placeholder="Ex.: Dano moral por atraso de voo">
+<div class="section-title">Acessórios (estratégias)</div><p class="helper">Selecione até 20 estratégias.</p>
+<div class="grid" id="acc-grid">
+<label class="check"><input type="checkbox" value="Resumo rápido"><span>Resumo rápido</span></label><label class="check"><input type="checkbox" value="Questões objetivas"><span>Questões objetivas</span></label><label class="check"><input type="checkbox" value="Questões subjetivas"><span>Questões subjetivas</span></label><label class="check"><input type="checkbox" value="Quadro comparativo"><span>Quadro comparativo</span></label><label class="check"><input type="checkbox" value="Jurisprudência majoritária"><span>Jurisprudência majoritária</span></label><label class="check"><input type="checkbox" value="Súmulas aplicáveis"><span>Súmulas aplicáveis</span></label><label class="check"><input type="checkbox" value="Doutrina essencial"><span>Doutrina essencial</span></label><label class="check"><input type="checkbox" value="Base legal (artigos)"><span>Base legal (artigos)</span></label><label class="check"><input type="checkbox" value="Exemplos práticos"><span>Exemplos práticos</span></label><label class="check"><input type="checkbox" value="Casos famosos"><span>Casos famosos</span></label><label class="check"><input type="checkbox" value="Erros comuns"><span>Erros comuns</span></label><label class="check"><input type="checkbox" value="Checklist prático"><span>Checklist prático</span></label><label class="check"><input type="checkbox" value="Flashcards"><span>Flashcards</span></label><label class="check"><input type="checkbox" value="Glossário"><span>Glossário</span></label><label class="check"><input type="checkbox" value="Dicas de prova"><span>Dicas de prova</span></label><label class="check"><input type="checkbox" value="Passo a passo de peça"><span>Passo a passo de peça</span></label><label class="check"><input type="checkbox" value="Modelos de resposta"><span>Modelos de resposta</span></label><label class="check"><input type="checkbox" value="Referências bibliográficas"><span>Referências bibliográficas</span></label><label class="check"><input type="checkbox" value="Perguntas orais"><span>Perguntas orais</span></label><label class="check"><input type="checkbox" value="Mapa mental"><span>Mapa mental</span></label>
+</div>
+<div class="buttons"><button id="btn-criar" class="button">Criar Prompt</button></div><hr class="sep">
+<div class="result" id="resultado" hidden><div class="section-title">Seu prompt foi gerado</div>
+<div class="helper">Checklist de acessórios inclusos:</div><div id="checklist" class="checklist" aria-live="polite"></div>
+<div class="buttons" style="margin-top:12px"><button id="btn-copiar" class="button secondary">Copiar</button>
+<button id="btn-share" class="button ghost">Compartilhar</button><button id="btn-novo" class="button ghost">Novo</button></div></div>
+</div><footer class="small">© 2025 Projeto — PWA</footer></main></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div><div id="overlay" class="overlay" hidden></div>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js');}</script></body></html>

@@ -1,0 +1,29 @@
+{
+  "categorias": [
+    {
+      "nome": "Penal",
+      "codigos": [
+        {
+          "id": "cp_art_121",
+          "titulo": "Código Penal — Art. 121 (Homicídio)",
+          "texto": "Art. 121 - Matar alguém: pena - reclusão, de seis a vinte anos..."
+        },
+        {
+          "id": "cp_art_155",
+          "titulo": "Código Penal — Art. 155 (Furto)",
+          "texto": "Art. 155 - Subtrair, para si ou para outrem, coisa alheia móvel..."
+        }
+      ]
+    },
+    {
+      "nome": "Civil",
+      "codigos": [
+        {
+          "id": "cc_art_186",
+          "titulo": "Código Civil — Art. 186 (Ato ilícito)",
+          "texto": "Aquele que, por ação ou omissão voluntária... comete ato ilícito."
+        }
+      ]
+    }
+  ]
+}

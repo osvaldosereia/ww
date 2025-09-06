@@ -1,0 +1,29 @@
+{
+  "categorias": [
+    {
+      "nome": "STJ",
+      "sumulas": [
+        {
+          "codigo": "Súmula 7",
+          "titulo": "Reexame de prova em REsp",
+          "texto": "A pretensão de simples reexame de prova não enseja recurso especial."
+        },
+        {
+          "codigo": "Súmula 54",
+          "titulo": "Juros moratórios desde o evento",
+          "texto": "Juros moratórios fluem a partir do evento danoso (resp. extracontratual)."
+        }
+      ]
+    },
+    {
+      "nome": "STF",
+      "sumulas": [
+        {
+          "codigo": "Súmula 279",
+          "titulo": "Reexame de prova em RE",
+          "texto": "Para simples reexame de prova não cabe recurso extraordinário."
+        }
+      ]
+    }
+  ]
+}
